@@ -1,3 +1,10 @@
+
+content/Assets
+content/TopDown
+content/Skeleton_NecroMancer
+content/Characters
+content/LevelPrototyping
+content/Cursor
 # Visual Studio Code
 .vscode/*
 !.vscode/settings.json
