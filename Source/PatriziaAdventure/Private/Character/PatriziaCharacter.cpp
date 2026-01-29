@@ -68,18 +68,6 @@ void APatriziaCharacter::HandleUnCrouch()
 	ACharacter::UnCrouch();
 }
 
-void APatriziaCharacter::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-	if (GEngine)
-	{
-		FString Status = bIsCrouched ? TEXT("AGACHADO") : TEXT("EM PE");
-		GEngine->AddOnScreenDebugMessage(-1, 0.0f, FColor::Yellow, Status);
-	}
-
-}
-
 void APatriziaCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
