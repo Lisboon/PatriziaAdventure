@@ -31,14 +31,14 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Input")
 	TObjectPtr<class UInputAction> Input_Look;
 
-	UPROPERTY(EditAnywhere, Category = "Input")
-	TObjectPtr<class UInputAction> Input_Jump;
+	// UPROPERTY(EditAnywhere, Category = "Input")
+	// TObjectPtr<class UInputAction> Input_Jump;
 
-	UPROPERTY(EditAnywhere, Category = "Input")
-	TObjectPtr<class UInputAction> Input_Sprint;
+	// UPROPERTY(EditAnywhere, Category = "Input")
+	// TObjectPtr<class UInputAction> Input_Sprint;
 
-	UPROPERTY(EditAnywhere, Category = "Input")
-	TObjectPtr<class UInputAction> Input_Attack;
+	// UPROPERTY(EditAnywhere, Category = "Input")
+	// TObjectPtr<class UInputAction> Input_Attack;
 
 	UPROPERTY(EditAnywhere, Category = "Input")
 	TObjectPtr<class UInputAction> Input_Crouch;
